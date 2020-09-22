@@ -3,10 +3,68 @@ body {
     font-size: $font-size-body;
 }
 
-h1 {
-    font-size: $font-size-heading1;
-    font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
-    font-weight: 700;
-    line-height: 105%;
+a {
+    text-decoration: none;
 }
 
+h1 {
+    font-size: $font-size-heading1-mob;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 115%;
+
+    @media only screen and (min-width: 768px) {
+        font-size: $font-size-heading1;
+    }
+}
+
+h2 {
+    font-size: $font-size-heading2-mob;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 700;
+
+    @media only screen and (min-width: 768px) {
+        font-size: $font-size-heading2;
+    }
+}
+
+h3 {
+    font-size: $font-size-heading3;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#brand-text {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: $color-secondary;
+}
+
+p {
+    line-height: 150%;
+}
+
+.section {
+    h2 {
+        margin-bottom: 2rem;
+
+        @include circle-box('../img/circle-box-blue.png');
+    }
+
+    &.schedule {
+        color: $color-white-primary;
+    }
+}
+
+
+footer {
+    h3 {
+        color: $color-white-primary;
+    }  
+}
+
+.hero {
+    h1 {
+        margin-bottom: 1.5rem;
+    }
+}

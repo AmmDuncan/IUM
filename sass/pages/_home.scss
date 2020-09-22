@@ -1,0 +1,48 @@
+.section {
+    box-sizing: content-box;
+    padding: 7.5rem 0;
+    position: relative;
+
+    .side-image {
+        img {
+            width: 100%;
+            margin-top: 1.5rem;
+        }
+    }
+
+    &.soul-winning {
+        .side-image {
+            img {
+                margin-top: 3.5rem;
+            }
+        }
+    }
+
+    &.schedule {
+        background-image: linear-gradient(to right,rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('../img/schedule-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            h2 {
+                @include circle-box('../img/circle-box-orange.png');
+            }
+
+            .info {
+                margin-bottom: 2rem;
+            }
+
+            .highlight {
+                color: $color-primary-light;
+            }
+        }
+    }
+}
+
+.soul-winning {
+    background-image: linear-gradient(to top, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
+}

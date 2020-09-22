@@ -1,0 +1,19 @@
+.navbar {
+    background-color: $color-white-primary;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+
+    &-brand {
+        .text {
+            max-width: 50px;
+            word-break: normal;
+        }
+    }
+
+    &-toggler {
+        border: none;
+        padding: 0.5rem;
+    }
+}

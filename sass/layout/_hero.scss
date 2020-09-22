@@ -1,5 +1,13 @@
 .hero {
     min-height: 35rem;
     box-sizing: border-box;
-    padding: 7rem 0;
+    padding: 7.5rem 0 7rem;
+    background-image: linear-gradient(to bottom, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
+
+    .featured-image {
+        img {
+            margin-top: 3.5rem;
+            width: 100%;
+        }
+    }
 }

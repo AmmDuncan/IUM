@@ -3,17 +3,205 @@ body {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
-  font-size: 56px;
+  font-size: 40px;
   font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
   font-weight: 700;
-  line-height: 105%;
+  line-height: 115%;
+}
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
+  font-weight: 700;
+}
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+#brand-text {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: #1a084a;
+}
+
+p {
+  line-height: 150%;
+}
+
+.section h2 {
+  margin-bottom: 2rem;
+}
+.section h2::before {
+  content: "";
+  background-image: url("../img/circle-box-blue.png");
+  width: 115px;
+  height: 115px;
+  display: block;
+  position: absolute;
+  top: -3.725rem;
+  opacity: 0.7;
+  z-index: 100;
+}
+.section.schedule {
+  color: #fdfdff;
+}
+
+footer h3 {
+  color: #fdfdff;
+}
+
+.hero h1 {
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  background-color: #fdfdff;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.navbar-brand .text {
+  max-width: 50px;
+  word-break: normal;
+}
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem;
 }
 
 .hero {
   min-height: 35rem;
   box-sizing: border-box;
-  padding: 7rem 0;
+  padding: 7.5rem 0 7rem;
+  background-image: linear-gradient(to bottom, #fdfdff 5%, #f4f4f5 35%, #f4f4f5 100%);
+}
+.hero .featured-image img {
+  margin-top: 3.5rem;
+  width: 100%;
+}
+
+footer {
+  background-color: #1a084a;
+  padding: 8.8rem 2rem 6.4rem;
+}
+footer > *:not(:first-child) {
+  margin-top: 4.8rem;
+}
+footer .group ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+footer .group ul li a {
+  text-decoration: none;
+  color: #fdfdff;
+}
+footer .group ul li a:hover {
+  color: #fafafa;
+}
+footer .social ul {
+  margin-top: 1.5rem;
+}
+footer .social ul li {
+  display: inline-block;
+}
+footer .social ul li:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.section {
+  box-sizing: content-box;
+  padding: 7.5rem 0;
+  position: relative;
+}
+.section .side-image img {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+.section.soul-winning .side-image img {
+  margin-top: 3.5rem;
+}
+.section.schedule {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/schedule-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section.schedule .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section.schedule .container h2::before {
+  content: "";
+  background-image: url("../img/circle-box-orange.png");
+  width: 115px;
+  height: 115px;
+  display: block;
+  position: absolute;
+  top: -3.725rem;
+  opacity: 0.7;
+  z-index: 100;
+}
+.section.schedule .container .info {
+  margin-bottom: 2rem;
+}
+.section.schedule .container .highlight {
+  color: #f9ab16;
+}
+
+.soul-winning {
+  background-image: linear-gradient(to top, #fdfdff 5%, #f4f4f5 35%, #f4f4f5 100%);
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: #f9ab16;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  color: #1a084a;
+  border-radius: 3px;
+  min-width: 100%;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    min-width: 0%;
+  }
+}
+.btn:hover {
+  background-color: #ea9a06;
+}
+.btn-sec {
+  margin-top: 1.5rem;
+  background-color: transparent;
+  color: #2364dd;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #2364dd;
+}
+.btn-sec:hover {
+  color: #19469b;
+  border-bottom: 2px solid #19469b;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
