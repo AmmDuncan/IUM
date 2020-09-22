@@ -1,3 +1,7 @@
+.body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
