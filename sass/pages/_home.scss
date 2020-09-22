@@ -1,19 +1,27 @@
 .section {
     box-sizing: content-box;
-    padding: 7.5rem 0;
+    padding: 10rem 0;
     position: relative;
 
     .side-image {
         img {
             width: 100%;
-            margin-top: 1.5rem;
+            margin-top: 5rem;
+        }
+    }
+
+    &.about {
+        .side-image {
+            img {
+                margin-top: 1.5rem;
+            }
         }
     }
 
     &.soul-winning {
         .side-image {
             img {
-                margin-top: 3.5rem;
+                margin-top: 5rem;
             }
         }
     }

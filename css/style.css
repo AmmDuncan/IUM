@@ -47,7 +47,7 @@ h3 {
 }
 
 p {
-  line-height: 150%;
+  line-height: 140%;
 }
 
 .section h2 {
@@ -67,13 +67,16 @@ p {
 .section.schedule {
   color: #fdfdff;
 }
+.section .text-content p {
+  margin-bottom: 1.5rem;
+}
 
 footer h3 {
   color: #fdfdff;
 }
 
 .hero h1 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .navbar {
@@ -95,11 +98,11 @@ footer h3 {
 .hero {
   min-height: 35rem;
   box-sizing: border-box;
-  padding: 7.5rem 0 7rem;
-  background-image: linear-gradient(to bottom, #fdfdff 5%, #f4f4f5 35%, #f4f4f5 100%);
+  padding: 12rem 0 10rem;
+  background-image: linear-gradient(to bottom, #fdfdff 5%, #f2f2f4 35%, #f2f2f4 100%);
 }
 .hero .featured-image img {
-  margin-top: 3.5rem;
+  margin-top: 5rem;
   width: 100%;
 }
 
@@ -133,15 +136,18 @@ footer .social ul li:not(:first-child) {
 
 .section {
   box-sizing: content-box;
-  padding: 7.5rem 0;
+  padding: 10rem 0;
   position: relative;
 }
 .section .side-image img {
   width: 100%;
+  margin-top: 5rem;
+}
+.section.about .side-image img {
   margin-top: 1.5rem;
 }
 .section.soul-winning .side-image img {
-  margin-top: 3.5rem;
+  margin-top: 5rem;
 }
 .section.schedule {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/schedule-bg.png");
@@ -172,7 +178,7 @@ footer .social ul li:not(:first-child) {
 }
 
 .soul-winning {
-  background-image: linear-gradient(to top, #fdfdff 5%, #f4f4f5 35%, #f4f4f5 100%);
+  background-image: linear-gradient(to top, #fdfdff 5%, #f2f2f4 35%, #f2f2f4 100%);
 }
 
 .btn {
@@ -180,7 +186,7 @@ footer .social ul li:not(:first-child) {
   background-color: #f9ab16;
   font-size: 18px;
   font-weight: 500;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   color: #1a084a;
   border-radius: 3px;
   min-width: 100%;
@@ -195,7 +201,6 @@ footer .social ul li:not(:first-child) {
   background-color: #ea9a06;
 }
 .btn-sec {
-  margin-top: 1.5rem;
   background-color: transparent;
   color: #2364dd;
   text-decoration: none;

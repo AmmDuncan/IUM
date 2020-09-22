@@ -4,7 +4,7 @@
     font-size: $font-size-body;
     font-weight: 500;
     // box-shadow: 0 1rem 1.5rem rgba($color-primary-dark, 0.2);
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     color: $color-secondary;
     border-radius: 3px;
     min-width: 100%;
@@ -19,7 +19,6 @@
     }
 
     &-sec {
-        margin-top: 1.5rem;
         background-color: transparent;
         color: #2364dd;
         text-decoration: none;
