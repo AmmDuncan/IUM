@@ -15,7 +15,7 @@ h1 {
   font-size: 40px;
   font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
   font-weight: 700;
-  line-height: 115%;
+  line-height: 105%;
 }
 @media only screen and (min-width: 768px) {
   h1 {
@@ -62,7 +62,7 @@ p {
   display: block;
   position: absolute;
   top: -2rem;
-  opacity: 0.65;
+  opacity: 0.25;
   z-index: 100;
 }
 .section.schedule {
@@ -179,7 +179,7 @@ footer .social ul li:not(:first-child) {
   display: block;
   position: absolute;
   top: -2rem;
-  opacity: 0.65;
+  opacity: 0.25;
   z-index: 100;
 }
 .section.schedule .container .info {
@@ -192,7 +192,7 @@ footer .social ul li:not(:first-child) {
 .btn {
   padding: 1rem 2rem;
   background-color: #f9ab16;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   margin-top: 1rem;
   color: #1a084a;
@@ -210,14 +210,14 @@ footer .social ul li:not(:first-child) {
 }
 .btn-sec {
   background-color: transparent;
-  color: #2364dd;
+  color: #4a17d3;
   text-decoration: none;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #2364dd;
+  border-bottom: 2px solid #4a17d3;
 }
 .btn-sec:hover {
-  color: #19469b;
-  border-bottom: 2px solid #19469b;
+  color: #2a0d77;
+  border-bottom: 2px solid #2a0d77;
   text-decoration: none;
 }
 

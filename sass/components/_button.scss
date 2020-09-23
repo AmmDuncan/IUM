@@ -1,7 +1,7 @@
 .btn {
     padding: 1rem 2rem;
     background-color: $color-primary-light;
-    font-size: $font-size-body;
+    font-size: 16px;
     font-weight: 500;
     // box-shadow: 0 1rem 1.5rem rgba($color-primary-dark, 0.2);
     margin-top: 1rem;
@@ -20,14 +20,14 @@
 
     &-sec {
         background-color: transparent;
-        color: #2364dd;
+        color: hsl(256, 80%, 46%);
         text-decoration: none;
         padding-bottom: 0.5rem;
-        border-bottom: 2px solid #2364dd;
+        border-bottom: 2px solid hsl(256, 80%, 46%);
 
         &:hover {
-            color: #19469b;
-            border-bottom: 2px solid #19469b;
+            color: hsl(256, 80%, 26%);
+            border-bottom: 2px solid hsl(256, 80%, 26%);
             text-decoration: none;
         }
     }
