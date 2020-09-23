@@ -143,8 +143,14 @@ footer .social ul li:not(:first-child) {
   width: 100%;
   margin-top: 5rem;
 }
+.section.about {
+  background-color: #dbd3f4;
+}
 .section.about .side-image img {
   margin-top: 1.5rem;
+}
+.section.soul-winning {
+  background-color: #fafafa;
 }
 .section.soul-winning .side-image img {
   margin-top: 5rem;
@@ -171,14 +177,10 @@ footer .social ul li:not(:first-child) {
   z-index: 100;
 }
 .section.schedule .container .info {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .section.schedule .container .highlight {
   color: #f9ab16;
-}
-
-.soul-winning {
-  background-image: linear-gradient(to top, #fdfdff 5%, #f2f2f4 35%, #f2f2f4 100%);
 }
 
 .btn {

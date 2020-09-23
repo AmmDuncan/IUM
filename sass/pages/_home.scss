@@ -11,6 +11,8 @@
     }
 
     &.about {
+        background-color: rgb(219, 211, 244);
+
         .side-image {
             img {
                 margin-top: 1.5rem;
@@ -19,6 +21,7 @@
     }
 
     &.soul-winning {
+        background-color: $color-white-secondary;
         .side-image {
             img {
                 margin-top: 5rem;
@@ -41,7 +44,7 @@
             }
 
             .info {
-                margin-bottom: 2rem;
+                margin-bottom: 3rem;
             }
 
             .highlight {
@@ -51,6 +54,6 @@
     }
 }
 
-.soul-winning {
-    background-image: linear-gradient(to top, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
-}
+// .soul-winning {
+//     background-image: linear-gradient(to top, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
+// }
