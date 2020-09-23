@@ -42,6 +42,7 @@ h3 {
 
 #brand-text {
   font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
   text-transform: uppercase;
   color: #1a084a;
 }
@@ -88,9 +89,18 @@ footer h3 {
   width: 100%;
   border: 1px solid #f2f2f4;
 }
-.navbar-brand .text {
+.navbar-brand .logo {
+  display: inline-block;
+}
+.navbar-brand .logo img {
+  height: 50px;
+}
+.navbar-brand #brand-text {
+  display: inline-block;
   max-width: 50px;
   word-break: normal;
+  font-size: 16px;
+  margin-left: 8px;
 }
 .navbar-toggler {
   border: none;
@@ -101,7 +111,7 @@ footer h3 {
   min-height: 35rem;
   box-sizing: border-box;
   padding: 8rem 0 10rem;
-  background: #fbf5e9;
+  background: #f9efdc;
 }
 .hero .featured-image img {
   margin-top: 5rem;
@@ -196,12 +206,12 @@ footer .social ul li:not(:first-child) {
   margin-bottom: 3rem;
 }
 .section.schedule .container .highlight {
-  color: #f9ab16;
+  color: #f7bd53;
 }
 
 .btn {
   padding: 1rem 2rem;
-  background-color: #f9ab16;
+  background-color: #f7bd53;
   font-size: 16px;
   font-weight: 500;
   margin-top: 1rem;

@@ -7,9 +7,19 @@
     border: 1px solid $color-white-tertiary;
 
     &-brand {
-        .text {
+        .logo {
+            display: inline-block;
+
+            img {
+                height: 50px;
+            }
+        }
+        #brand-text {
+            display: inline-block;
             max-width: 50px;
             word-break: normal;
+            font-size: 16px;
+            margin-left: 8px;
         }
     }
 
