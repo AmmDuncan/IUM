@@ -16,8 +16,8 @@
     }
 
     &.about {
-        background-color:$color-secondary-light;
-
+        background-color: $color-white-secondary;
+        
         .side-image {
             width: 100%;
 
@@ -28,7 +28,9 @@
     }
 
     &.soul-winning {
-        background-color: $color-white-secondary;
+        background-color:$color-secondary-light;
+
+
         .side-image {
             width: 100%;
 

@@ -101,7 +101,7 @@ footer h3 {
   min-height: 35rem;
   box-sizing: border-box;
   padding: 8rem 0 10rem;
-  background: #fafafa;
+  background: #fbf5e9;
 }
 .hero .featured-image img {
   margin-top: 5rem;
@@ -152,7 +152,7 @@ footer .social ul li:not(:first-child) {
   margin-top: 5rem;
 }
 .section.about {
-  background-color: #f2f0fa;
+  background-color: #fafafa;
 }
 .section.about .side-image {
   width: 100%;
@@ -161,7 +161,7 @@ footer .social ul li:not(:first-child) {
   margin-top: 1.5rem;
 }
 .section.soul-winning {
-  background-color: #fafafa;
+  background-color: #f2f0fa;
 }
 .section.soul-winning .side-image {
   width: 100%;
