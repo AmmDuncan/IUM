@@ -141,6 +141,9 @@ footer .social ul li:not(:first-child) {
   padding: 10rem 0;
   position: relative;
 }
+.section .side-image {
+  width: 100%;
+}
 .section .side-image img {
   width: 100%;
   max-width: 350px;
@@ -151,14 +154,21 @@ footer .social ul li:not(:first-child) {
 .section.about {
   background-color: #f2f0fa;
 }
+.section.about .side-image {
+  width: 100%;
+}
 .section.about .side-image img {
   margin-top: 1.5rem;
 }
 .section.soul-winning {
   background-color: #fafafa;
 }
+.section.soul-winning .side-image {
+  width: 100%;
+}
 .section.soul-winning .side-image img {
   margin-top: 5rem;
+  max-width: 100%;
 }
 .section.schedule {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/schedule-bg.png");

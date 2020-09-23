@@ -4,6 +4,8 @@
     position: relative;
 
     .side-image {
+        width: 100%;
+
         img {
             width: 100%;
             max-width: 350px;
@@ -17,6 +19,8 @@
         background-color:$color-secondary-light;
 
         .side-image {
+            width: 100%;
+
             img {
                 margin-top: 1.5rem;
             }
@@ -26,8 +30,11 @@
     &.soul-winning {
         background-color: $color-white-secondary;
         .side-image {
+            width: 100%;
+
             img {
                 margin-top: 5rem;
+                max-width: 100%;
             }
         }
     }
