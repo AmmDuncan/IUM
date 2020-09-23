@@ -98,7 +98,7 @@ footer h3 {
 .hero {
   min-height: 35rem;
   box-sizing: border-box;
-  padding: 12rem 0 10rem;
+  padding: 8rem 0 10rem;
   background-image: linear-gradient(to bottom, #fdfdff 5%, #f2f2f4 35%, #f2f2f4 100%);
 }
 .hero .featured-image img {
