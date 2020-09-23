@@ -57,7 +57,7 @@ p {
   content: "";
   background-image: url("../img/circle-box-blue.png");
   background-size: cover;
-  width: 100px;
+  width: 65px;
   height: 100px;
   display: block;
   position: absolute;
@@ -184,7 +184,7 @@ footer .social ul li:not(:first-child) {
   content: "";
   background-image: url("../img/circle-box-orange.png");
   background-size: cover;
-  width: 100px;
+  width: 65px;
   height: 100px;
   display: block;
   position: absolute;
