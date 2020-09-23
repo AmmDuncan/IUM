@@ -2,7 +2,8 @@
     min-height: 35rem;
     box-sizing: border-box;
     padding: 8rem 0 10rem;
-    background-image: linear-gradient(to bottom, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
+    // background-image: linear-gradient(to bottom, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
+    background: $color-white-secondary;
 
     .featured-image {
         img {

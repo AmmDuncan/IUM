@@ -56,12 +56,13 @@ p {
 .section h2::before {
   content: "";
   background-image: url("../img/circle-box-blue.png");
-  width: 115px;
-  height: 115px;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
   display: block;
   position: absolute;
-  top: -3.725rem;
-  opacity: 0.7;
+  top: -2rem;
+  opacity: 0.65;
   z-index: 100;
 }
 .section.schedule {
@@ -85,6 +86,7 @@ footer h3 {
   top: 0;
   z-index: 1000;
   width: 100%;
+  border: 1px solid #f2f2f4;
 }
 .navbar-brand .text {
   max-width: 50px;
@@ -99,7 +101,7 @@ footer h3 {
   min-height: 35rem;
   box-sizing: border-box;
   padding: 8rem 0 10rem;
-  background-image: linear-gradient(to bottom, #fdfdff 5%, #f2f2f4 35%, #f2f2f4 100%);
+  background: #fafafa;
 }
 .hero .featured-image img {
   margin-top: 5rem;
@@ -147,7 +149,7 @@ footer .social ul li:not(:first-child) {
   margin-top: 5rem;
 }
 .section.about {
-  background-color: #f9c86bc4;
+  background-color: #f1edfd;
 }
 .section.about .side-image img {
   margin-top: 1.5rem;
@@ -171,12 +173,13 @@ footer .social ul li:not(:first-child) {
 .section.schedule .container h2::before {
   content: "";
   background-image: url("../img/circle-box-orange.png");
-  width: 115px;
-  height: 115px;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
   display: block;
   position: absolute;
-  top: -3.725rem;
-  opacity: 0.7;
+  top: -2rem;
+  opacity: 0.65;
   z-index: 100;
 }
 .section.schedule .container .info {
