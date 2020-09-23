@@ -62,7 +62,7 @@ p {
   display: block;
   position: absolute;
   top: -2rem;
-  opacity: 0.25;
+  opacity: 0.15;
   z-index: 100;
 }
 .section.schedule {
@@ -149,7 +149,7 @@ footer .social ul li:not(:first-child) {
   margin-top: 5rem;
 }
 .section.about {
-  background-color: #f1edfd;
+  background-color: #f2f0fa;
 }
 .section.about .side-image img {
   margin-top: 1.5rem;
@@ -179,7 +179,7 @@ footer .social ul li:not(:first-child) {
   display: block;
   position: absolute;
   top: -2rem;
-  opacity: 0.25;
+  opacity: 0.15;
   z-index: 100;
 }
 .section.schedule .container .info {
