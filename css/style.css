@@ -16,6 +16,7 @@ h1 {
   font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
   font-weight: 700;
   line-height: 105%;
+  letter-spacing: -0.3px;
 }
 @media only screen and (min-width: 768px) {
   h1 {
@@ -48,7 +49,7 @@ h3 {
 }
 
 p {
-  line-height: 140%;
+  line-height: 160%;
 }
 
 .section h2 {
