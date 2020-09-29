@@ -90,13 +90,19 @@ footer h3 {
   width: 100%;
   border: 1px solid #f2f2f4;
 }
-.navbar-nav a.nav-link {
-  padding-top: 5px;
-  padding-bottom: 5px;
+.navbar-nav {
+  margin-top: 12px;
+  border-top: 1px solid #f2f0fa;
 }
-.navbar-nav a.nav-link.active {
-  color: #d9741d;
+.navbar-nav a.nav-link {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.navbar-nav .nav-item.active {
   background-color: #f2f2f4;
+}
+.navbar-nav .nav-item.active a.nav-link {
+  color: #d9741d !important;
 }
 .navbar-brand .logo {
   display: inline-block;
@@ -120,7 +126,7 @@ footer h3 {
   min-height: 35rem;
   box-sizing: border-box;
   padding: 8rem 0 10rem;
-  background: #f9efdc;
+  background: #faf1e1;
 }
 .hero .featured-image img {
   margin-top: 5rem;
