@@ -6,13 +6,15 @@
     width: 100%;
     border: 1px solid $color-white-tertiary;
 
-    .nav-link {
-        padding-top: 5px;
-        padding-bottom: 5px;
-
-        &.active {
-            color: $color-primary-dark;
-            background-color: $color-white-tertiary;
+    &-nav {
+        a.nav-link {
+            padding-top: 5px;
+            padding-bottom: 5px;
+    
+            &.active {
+                color: $color-primary-dark;
+                background-color: $color-white-tertiary;
+            }
         }
     }
 

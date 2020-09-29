@@ -90,11 +90,11 @@ footer h3 {
   width: 100%;
   border: 1px solid #f2f2f4;
 }
-.navbar .nav-link {
+.navbar-nav a.nav-link {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.navbar .nav-link.active {
+.navbar-nav a.nav-link.active {
   color: #d9741d;
   background-color: #f2f2f4;
 }
