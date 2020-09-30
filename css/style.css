@@ -245,6 +245,9 @@ footer .social ul li:not(:first-child) {
 .messages .card .text-content .btn-sec {
   margin-top: 0rem;
 }
+.messages .card:last-child {
+  margin-top: 2rem;
+}
 
 .btn {
   padding: 1rem 2rem;
