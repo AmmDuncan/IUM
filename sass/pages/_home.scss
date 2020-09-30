@@ -1,5 +1,6 @@
 .section {
-    box-sizing: content-box;
+    min-height: 35rem;
+    box-sizing: border-box;
     padding: 10rem 0;
     position: relative;
 
@@ -62,6 +63,23 @@
             .highlight {
                 color: $color-primary-light;
             }
+        }
+    }
+}
+
+.messages {
+    background-color: $color-white-secondary;
+
+    .card {
+        background-color: $color-white-primary;
+        box-shadow: 0px 1rem 1.4rem rgba($color-white-tertiary, 0.8), 0 8px rgba($color-white-tertiary, 0.5);
+
+        img {
+            width: 100%;
+        }
+
+        .text-content {
+            padding: 1rem;
         }
     }
 }
