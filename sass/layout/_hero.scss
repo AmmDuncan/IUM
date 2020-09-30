@@ -5,6 +5,10 @@
     // background-image: linear-gradient(to bottom, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
     background: $color-primary-lightest;
 
+    .text-content {
+        padding: 0
+    }
+
     .featured-image {
         display: flex;
         justify-content: center;

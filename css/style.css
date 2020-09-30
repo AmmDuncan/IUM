@@ -149,6 +149,9 @@ footer h3 {
   padding: 8rem 0 10rem;
   background: #faf1e1;
 }
+.hero .text-content {
+  padding: 0;
+}
 .hero .featured-image {
   display: flex;
   justify-content: center;
