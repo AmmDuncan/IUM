@@ -230,7 +230,7 @@ footer .social ul li:not(:first-child) {
 }
 .messages .card {
   background-color: #fdfdff;
-  box-shadow: 0px 1rem 1.4rem rgba(242, 242, 244, 0.8), 0 8px rgba(242, 242, 244, 0.5);
+  box-shadow: 0px 1rem 1.4rem rgba(242, 242, 244, 0.8), 0 8px 4px rgba(242, 242, 244, 0.5);
 }
 .messages .card img {
   width: 100%;
