@@ -164,7 +164,7 @@ footer .social ul li:not(:first-child) {
 .section {
   min-height: 35rem;
   box-sizing: border-box;
-  padding: 10rem 0;
+  padding: 8.5rem 0;
   position: relative;
 }
 .section .side-image {
@@ -246,7 +246,7 @@ footer .social ul li:not(:first-child) {
   margin-top: 0rem;
 }
 .messages .card:last-child {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .btn {
