@@ -15,7 +15,14 @@ h1 {
     letter-spacing: -0.3px;
 
     @media only screen and (min-width: 768px) {
+        font-size: $font-size-heading1-mob;
+    }
+
+    @media only screen and (min-width: 992px) {
         font-size: $font-size-heading1;
+        line-height: 100%;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
     }
 }
 
@@ -45,6 +52,8 @@ h3 {
 
 p {
     line-height: 150%;
+
+
 }
 
 .section {
@@ -76,4 +85,8 @@ footer {
     h1 {
         margin-bottom: 1rem;
     }
+}
+
+.spacer {
+    height: 0.8rem;
 }

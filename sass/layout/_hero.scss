@@ -6,9 +6,42 @@
     background: $color-primary-lightest;
 
     .featured-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img {
             margin-top: 5rem;
-            width: 100%;
+            width: clamp(310px, 100%, 350px);      
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding: 10rem 0 8rem;
+
+        .featured-image {
+            height: 100%;
+
+            img {
+                height: 100%;
+                margin-top: 0rem;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        padding: 12rem 0 8rem;
+
+        .featured-image {
+            height: 100%;
+
+            img {
+                width: 100%;
+                margin-top: -5rem;
+            }
+        }
+
+        .text-content {
+            padding-right: 3rem;
         }
     }
 }
