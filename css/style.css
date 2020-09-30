@@ -238,6 +238,12 @@ footer .social ul li:not(:first-child) {
 .messages .card .text-content {
   padding: 1rem;
 }
+.messages .card .text-content h3 {
+  margin: 8px 0 16px;
+}
+.messages .card .text-content .btn-sec {
+  margin-top: 1.5rem;
+}
 
 .btn {
   padding: 1rem 2rem;
@@ -249,6 +255,7 @@ footer .social ul li:not(:first-child) {
   border-radius: 3px;
   min-width: 100%;
   text-transform: uppercase;
+  border-radius: 4px;
 }
 @media screen and (min-width: 768px) {
   .btn {
@@ -273,6 +280,7 @@ footer .social ul li:not(:first-child) {
   transition: color 0s 0.15s ease-out;
   font-size: 16px;
   font-weight: 500;
+  border-radius: 4px;
 }
 .btn-sec:before {
   content: "";
@@ -294,6 +302,7 @@ footer .social ul li:not(:first-child) {
   position: absolute;
   left: 0;
   top: 0;
+  border-radius: 4px;
 }
 .btn-sec:hover {
   color: #fdfdff;
