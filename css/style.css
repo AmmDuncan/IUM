@@ -2,6 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (min-width: 768px) {
+  .mob-only {
+    display: none;
+  }
+}
+
+.tab-and-above {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .tab-and-above {
+    display: inline-block;
+  }
+}
+
 body {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
