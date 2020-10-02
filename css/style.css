@@ -474,6 +474,7 @@ footer .social ul li:not(:first-child) {
   }
   .messages .card img {
     width: 386px;
+    height: 385px;
   }
   .messages .card iframe {
     width: 495px;
