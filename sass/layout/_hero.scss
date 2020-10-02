@@ -15,7 +15,11 @@
         align-items: center;
         img {
             margin-top: 5rem;
-            width: clamp(310px, 100%, 350px);      
+            // width: clamp(310px, 100%, 350px);
+            min-width: 310px;
+            width: 100%;
+            max-width: 350px;
+            height: auto;      
         }
     }
 

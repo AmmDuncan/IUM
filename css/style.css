@@ -200,7 +200,10 @@ article .intro {
 }
 .hero .featured-image img {
   margin-top: 5rem;
-  width: clamp(310px, 100%, 350px);
+  min-width: 310px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
 }
 @media only screen and (min-width: 768px) {
   .hero {
@@ -276,7 +279,7 @@ footer .social ul li:not(:first-child) {
 .section .side-image {
   width: 100%;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 .section .side-image img {
