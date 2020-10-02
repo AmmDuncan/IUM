@@ -118,6 +118,20 @@ article h1::before {
     font-size: 48px;
   }
 }
+article .book-title {
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+}
+article small {
+  font-style: italic;
+  color: #555;
+}
+article .intro {
+  font-size: 16px;
+  line-height: 145%;
+  margin-top: 0.5rem;
+}
 
 .navbar {
   background-color: #fdfdff;
@@ -483,15 +497,37 @@ main {
   background-color: #fafafa;
   padding-top: 5rem;
 }
-main article {
+main .container > article {
   padding: 6rem 0 4rem;
   position: relative;
   max-width: 47rem;
   margin: 0 auto;
   min-height: 30rem;
 }
-main article h2:before {
+main .container > article h2:before {
   top: -7rem;
+}
+
+.container > article h1 {
+  margin-bottom: 1rem;
+}
+.container > article .underline {
+  border-bottom: 1px solid rgba(85, 85, 85, 0.2);
+  margin-bottom: 2rem;
+}
+.container > article article figure {
+  width: 231px;
+  margin-bottom: 0px;
+}
+.container > article article figure img {
+  width: 100%;
+}
+.container > article article .btn-sec {
+  margin-top: 1rem;
+}
+.container > article article .img-container {
+  display: flex;
+  align-items: center;
 }
 
 .btn {
@@ -520,7 +556,7 @@ main article h2:before {
   position: absolute;
   left: -123%;
   top: 0;
-  transition: all 0.2s ease-out;
+  transition: all 0.15s ease-out;
   z-index: -1;
 }
 .btn:after {
@@ -571,7 +607,7 @@ main article h2:before {
   background-color: transparent;
   z-index: 10;
   text-align: center;
-  transition: color 0s 0.15s ease-out;
+  transition: color 0s 0.1s ease-out;
   font-size: 16px;
   font-weight: 500;
   border-radius: 4px;
@@ -586,7 +622,7 @@ main article h2:before {
   position: absolute;
   left: -123%;
   top: 0;
-  transition: all 0.2s ease-out;
+  transition: all 0.15s ease-out;
 }
 .btn-sec:after {
   content: "";
@@ -623,6 +659,18 @@ main article h2:before {
   }
   .btn-sec:hover:before {
     left: -15%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .btn-sec {
+    min-width: 0%;
+  }
+  .btn-sec:before {
+    width: 135%;
+    left: -140%;
+  }
+  .btn-sec:hover:before {
+    left: -17%;
   }
 }
 

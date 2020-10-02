@@ -1,0 +1,30 @@
+.container>article {
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    .underline {
+        border-bottom: 1px solid rgba($color-black-secondary, 0.2);
+        margin-bottom: 2rem;
+    }
+
+    article {
+        figure {
+            width: 231px;;
+            margin-bottom: 0px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .btn-sec {
+            margin-top: 1rem;
+        }
+
+        .img-container {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
