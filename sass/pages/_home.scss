@@ -11,8 +11,9 @@
         justify-content: center;
 
         img {
-            width: clamp(310px, 100%, 350px);
-            // max-width: 350px;
+            min-width: 310px;
+            width: 100%;
+            max-width: 350px;
             margin: 5rem auto 0;
         }
     }
