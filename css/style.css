@@ -189,6 +189,7 @@ article .intro {
   box-sizing: border-box;
   padding: 8rem 0 10rem;
   background: #faf1e1;
+  position: relative;
 }
 .hero .text-content {
   padding: 0;
@@ -216,17 +217,25 @@ article .intro {
     height: 100%;
     margin-top: 0rem;
   }
+  .hero .text-content {
+    padding-right: 1rem;
+  }
 }
 @media only screen and (min-width: 992px) {
   .hero {
     padding: 12rem 0 8rem;
   }
   .hero .featured-image {
-    height: 100%;
+    height: 150%;
+    min-height: 25rem;
+    overflow-x: visible;
   }
   .hero .featured-image img {
-    width: 100%;
+    width: auto;
+    height: 100%;
     margin-top: -5rem;
+    min-width: auto;
+    max-width: 550px;
   }
   .hero .text-content {
     padding-right: 3rem;
@@ -477,7 +486,7 @@ footer .social ul li:not(:first-child) {
     height: 385px;
   }
   .messages .card iframe {
-    width: 495px;
+    width: 100%;
     height: 386px;
   }
   .messages .card:last-child {

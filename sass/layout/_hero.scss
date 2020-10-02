@@ -4,6 +4,7 @@
     padding: 8rem 0 10rem;
     // background-image: linear-gradient(to bottom, $color-white-primary 5%, $color-white-tertiary 35%, $color-white-tertiary 100%);
     background: $color-primary-lightest;
+    position: relative;
 
     .text-content {
         padding: 0
@@ -13,6 +14,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
         img {
             margin-top: 5rem;
             // width: clamp(310px, 100%, 350px);
@@ -28,11 +30,16 @@
 
         .featured-image {
             height: 100%;
+            // padding-left: 1.5rem;
 
             img {
                 height: 100%;
                 margin-top: 0rem;
             }
+        }
+
+        .text-content {
+            padding-right: 1rem;
         }
     }
 
@@ -40,11 +47,16 @@
         padding: 12rem 0 8rem;
 
         .featured-image {
-            height: 100%;
+            height: 150%;
+            min-height: 25rem;
+            overflow-x: visible;
 
             img {
-                width: 100%;
+                width: auto;
+                height: 100%;
                 margin-top: -5rem;
+                min-width: auto;
+                max-width: 550px;
             }
         }
 
