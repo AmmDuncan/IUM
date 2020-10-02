@@ -412,7 +412,9 @@ footer .social ul li:not(:first-child) {
 }
 .messages .card img {
   width: clamp(310px, 100%, 400px);
-  height: clamp(310px, 90.6vw, 400px);
+  min-height: 310px;
+  height: 90.5vw;
+  max-height: 400px;
 }
 .messages .card iframe {
   width: clamp(310px, 100%, 400px);
