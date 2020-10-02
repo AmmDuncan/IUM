@@ -123,7 +123,7 @@ article h1::before {
 article .book-title {
   font-weight: 500;
   font-size: 32px;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.2px;
 }
 article small {
   font-style: italic;
