@@ -7,15 +7,15 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    font-size: $font-size-heading1-mob;
+h1, article h1 {
+    font-size: $font-size-heading2;
     font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
     font-weight: 700;
     line-height: 105%;
     letter-spacing: -0.3px;
 
     @media only screen and (min-width: 768px) {
-        font-size: $font-size-heading1-mob;
+        font-size: $font-size-heading2;
     }
 
     @media only screen and (min-width: 992px) {
@@ -90,3 +90,19 @@ footer {
 .spacer {
     height: 0.8rem;
 }
+
+article {
+    p, ul {
+        font-size: $font-size-body-bold;
+        line-height: 165%;
+    }
+
+    h1 {
+        @include circle-box('../img/circle-box-orange.png');
+        margin-bottom: 2rem;
+
+        @media screen and (min-width: 992px) {
+            font-size: $font-size-heading1-tab;
+        }
+    }    
+} 

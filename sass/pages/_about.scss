@@ -1,0 +1,18 @@
+main {
+    background-color: $color-white-secondary;
+    padding-top: 5rem;
+
+    article {
+        padding: 6rem 0 4rem;
+        position: relative;
+        max-width:47rem;
+        margin: 0 auto;
+        min-height: 30rem;
+
+        h2 {
+            &:before {
+                top: -7rem;
+            }
+        }
+    }
+}

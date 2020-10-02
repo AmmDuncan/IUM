@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1, article h1 {
   font-size: 40px;
   font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
   font-weight: 700;
@@ -19,12 +19,12 @@ h1 {
   letter-spacing: -0.3px;
 }
 @media only screen and (min-width: 768px) {
-  h1 {
+  h1, article h1 {
     font-size: 40px;
   }
 }
 @media only screen and (min-width: 992px) {
-  h1 {
+  h1, article h1 {
     font-size: 56px;
     line-height: 100%;
     margin-bottom: 1.5rem;
@@ -92,6 +92,31 @@ footer h3 {
 
 .spacer {
   height: 0.8rem;
+}
+
+article p, article ul {
+  font-size: 20px;
+  line-height: 165%;
+}
+article h1 {
+  margin-bottom: 2rem;
+}
+article h1::before {
+  content: "";
+  background-image: url("../img/circle-box-orange.png");
+  background-size: cover;
+  width: 65px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: -2rem;
+  opacity: 0.25;
+  z-index: 100;
+}
+@media screen and (min-width: 992px) {
+  article h1 {
+    font-size: 48px;
+  }
 }
 
 .navbar {
@@ -452,6 +477,21 @@ footer .social ul li:not(:first-child) {
   .wrap {
     max-width: 1000px;
   }
+}
+
+main {
+  background-color: #fafafa;
+  padding-top: 5rem;
+}
+main article {
+  padding: 6rem 0 4rem;
+  position: relative;
+  max-width: 47rem;
+  margin: 0 auto;
+  min-height: 30rem;
+}
+main article h2:before {
+  top: -7rem;
 }
 
 .btn {
