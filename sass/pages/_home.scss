@@ -45,7 +45,7 @@
     }
 
     &.schedule {
-        background-image: linear-gradient(to right,rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('../img/schedule-bg.png');
+        background-image: linear-gradient(to right,rgba(5,5,10, .85), rgba(5,5,10, .85)), url('../img/schedule-bg.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -65,6 +65,10 @@
             .highlight {
                 color: $color-primary-light;
             }
+
+            // .row >div {
+            //     padding: 0 2rem;
+            // }
         }
     }
 
