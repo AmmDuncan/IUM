@@ -40,6 +40,7 @@ h3 {
     font-size: $font-size-heading3;
     font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT',sans-serif;
     font-weight: 700;
+    color: rgba($color-white-primary, 0.92);
 }
 
 #brand-text {
@@ -64,7 +65,15 @@ p {
     }
 
     &.schedule {
-        color: $color-white-primary;
+        color: rgba($color-white-primary,0.88);
+
+        h2 {
+            color: rgba($color-white-primary,0.92);
+        }
+
+        .row > div p {
+            text-align: justify;
+        }
     }
 
     .text-content {
