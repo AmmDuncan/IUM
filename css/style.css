@@ -167,7 +167,7 @@ article .intro {
 }
 .navbar-nav {
   margin-top: 12px;
-  border-top: 1px solid #f2f0fa;
+  border-top: 1px solid #f8f7fb;
 }
 .navbar-nav a.nav-link {
   padding-top: 12px;
@@ -335,7 +335,7 @@ footer .social ul li:hover {
   margin: 1.5rem auto 0;
 }
 .section.soul-winning {
-  background-color: #f2f0fa;
+  background-color: #f8f7fb;
 }
 .section.soul-winning .side-image {
   width: 100%;
